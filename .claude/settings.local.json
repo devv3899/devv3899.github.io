@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p public/img src/components src/data .github/workflows)",
+      "Bash(cp assets/img/profile.png public/img/)",
+      "Bash(cp assets/img/SAS.png public/img/)",
+      "Bash(cp assets/img/favicon.ico public/img/)",
+      "Bash(cp \"Dev_Patel_Resume.pdf\" public/)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
