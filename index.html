@@ -2,27 +2,358 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Dev Patel — Software Engineer specializing in IoT, IIoT, and cloud architecture." />
-    <title>Dev Patel — Portfolio</title>
-    <!-- Font Awesome 6 -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      crossorigin="anonymous"
+    <meta
+      name="description"
+      content="Dev Patel is a Software Engineer III building cloud-native, event-driven platforms across manufacturing, operations, and customer-facing systems."
     />
-    <!-- Google Fonts -->
+    <meta name="theme-color" content="#0d1b1e" />
+    <meta property="og:title" content="Dev Patel | Software Engineer III" />
+    <meta
+      property="og:description"
+      content="Portfolio for a Software Engineer III specializing in AWS serverless architecture, IoT telemetry, Kafka/MSK event processing, dashboards, Terraform infrastructure, and AI-powered automation."
+    />
+    <meta property="og:type" content="website" />
+    <title>Dev Patel | Software Engineer III</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,600;6..72,700&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/assets/index-B-EAsP1J.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-jem7noYs.css">
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <div id="root"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-header>
+      <a class="brand" href="#hero" aria-label="Dev Patel home">
+        <span class="brand-mark">DP</span>
+        <span class="brand-copy">
+          <strong>Dev Patel</strong>
+          <span>Software Engineer III</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-nav>
+        <a href="#work">Work</a>
+        <a href="#systems">Systems</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <picture>
+            <source srcset="/img/profile.png" media="(min-width: 760px)" />
+            <img src="/img/profile.png" alt="" width="800" height="800" fetchpriority="high" />
+          </picture>
+        </div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">Cloud-native engineering for high-signal industrial systems</p>
+          <h1 id="hero-title">Dev Patel</h1>
+          <p class="hero-lede">
+            Full-stack Software Engineer III with 4+ years of experience building cloud-native,
+            event-driven platforms across manufacturing, operations, and customer-facing systems.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="mailto:devnandol@gmail.com">Start a conversation</a>
+            <a class="button button-secondary" href="/Dev_Patel_Resume.pdf" target="_blank" rel="noreferrer">View resume</a>
+          </div>
+          <dl class="hero-proof" aria-label="Professional highlights">
+            <div>
+              <dt>Current focus</dt>
+              <dd>AWS serverless, IoT telemetry, Kafka/MSK, Terraform</dd>
+            </div>
+            <div>
+              <dt>Experience</dt>
+              <dd>10+ production initiatives at Glidewell Dental</dd>
+            </div>
+            <div>
+              <dt>Based in</dt>
+              <dd>Irvine, California</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-ribbon" aria-label="Core engineering strengths">
+          <span>Serverless</span>
+          <span>IoT telemetry</span>
+          <span>Kafka / MSK</span>
+          <span>Dashboards</span>
+          <span>Infrastructure</span>
+          <span>Bedrock + LLM</span>
+        </div>
+      </section>
+
+      <section class="section-shell intro-band" id="work" aria-labelledby="work-title">
+        <div class="section-kicker reveal">What I Bring</div>
+        <div class="section-heading reveal">
+          <h2 id="work-title">I turn complex factory, device, and data systems into reliable software products.</h2>
+          <p>
+            My work sits where machines, cloud infrastructure, operations teams, and customer-facing
+            systems meet: ingesting telemetry, designing backend services, automating environments,
+            and shaping dashboards that make operational decisions faster.
+          </p>
+        </div>
+        <div class="impact-grid">
+          <article class="impact-card reveal">
+            <span class="impact-number">01</span>
+            <h3>Cloud architecture that survives real operations</h3>
+            <p>
+              Design AWS services around secure ingestion, transformation, storage, and retrieval of
+              telemetry and enterprise data using Lambda, DynamoDB, S3, IoT services, Kinesis, and Kafka/MSK.
+            </p>
+          </article>
+          <article class="impact-card reveal">
+            <span class="impact-number">02</span>
+            <h3>Dashboards people can actually run decisions from</h3>
+            <p>
+              Build real-time analytics dashboards and reporting workflows that surface production
+              telemetry, anomaly insights, operational status, and customer-facing data.
+            </p>
+          </article>
+          <article class="impact-card reveal">
+            <span class="impact-number">03</span>
+            <h3>Automation across delivery and infrastructure</h3>
+            <p>
+              Use Terraform, Kubernetes, Jenkins/CloudBees, GitLab CI/CD, and pragmatic engineering
+              discipline to reduce manual work and keep delivery consistent.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell systems-section" id="systems" aria-labelledby="systems-title">
+        <div class="section-kicker reveal">Engineering Shape</div>
+        <div class="split-heading reveal">
+          <h2 id="systems-title">A full-stack engineer with depth in distributed cloud systems.</h2>
+          <p>
+            I am strongest in product-facing platform work: building the services, interfaces, and
+            automation that connect edge devices, cloud infrastructure, internal users, and business outcomes.
+          </p>
+        </div>
+        <div class="system-map reveal" aria-label="System capabilities">
+          <div class="system-node system-node-source">
+            <span>IoT + telemetry</span>
+            <strong>IoT Core, Greengrass, SiteWise, IoT Events, IoT Analytics</strong>
+          </div>
+          <div class="system-line"></div>
+          <div class="system-node">
+            <span>Event Layer</span>
+            <strong>Kafka / MSK, Kinesis, SQS, SNS, REST APIs</strong>
+          </div>
+          <div class="system-line"></div>
+          <div class="system-node">
+            <span>Cloud Services</span>
+            <strong>Lambda, API Gateway, VPC, S3, DynamoDB, RDS, Cognito, IAM</strong>
+          </div>
+          <div class="system-line"></div>
+          <div class="system-node system-node-output">
+            <span>User Experience</span>
+            <strong>React, Angular, real-time dashboards, reporting, alerts</strong>
+          </div>
+        </div>
+        <div class="capability-grid">
+          <article class="capability reveal">
+            <h3>Backend and integration</h3>
+            <p>REST APIs, microservices, event contracts, cloud storage, data transformation, service orchestration.</p>
+          </article>
+          <article class="capability reveal">
+            <h3>Frontend product systems</h3>
+            <p>Accessible dashboards, responsive UI, operator workflows, chart-heavy reporting, stateful interfaces.</p>
+          </article>
+          <article class="capability reveal">
+            <h3>Infrastructure and delivery</h3>
+            <p>Terraform, Kubernetes, Jenkins/CloudBees, GitLab CI/CD, cloud networking, deployment hygiene, production support.</p>
+          </article>
+          <article class="capability reveal">
+            <h3>AI-assisted workflows</h3>
+            <p>Amazon Bedrock, RAG pipeline design, prompt engineering, and context-aware querying over structured operational data.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-kicker reveal">Selected Work</div>
+        <div class="section-heading reveal">
+          <h2 id="projects-title">Project stories shaped around resume-backed engineering impact.</h2>
+          <p>
+            These examples mirror the resume: serverless data synchronization, automated incident
+            routing, telemetry platforms, dashboards, infrastructure, and AI-powered workflow automation.
+          </p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-card-feature reveal">
+            <div class="project-meta">
+              <span>Resume project</span>
+              <span>Python + AWS + Terraform</span>
+            </div>
+            <h3>Serverless enterprise data sync pipeline</h3>
+            <p>
+              Designed and deployed a serverless data synchronization pipeline that ingests, normalizes,
+              and persists enterprise data from external platforms into DynamoDB for downstream reporting,
+              dashboards, and operational workflows.
+            </p>
+            <ul>
+              <li>AWS Lambda and DynamoDB for serverless processing and persistence</li>
+              <li>Terraform-managed cloud infrastructure</li>
+              <li>Data availability improvements for reporting and dashboard consumers</li>
+            </ul>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-meta">
+              <span>Resume project</span>
+              <span>Python + AWS + REST APIs</span>
+            </div>
+            <h3>Event-driven automated incident routing</h3>
+            <p>
+              Built an event-driven service that monitors production telemetry, classifies failures,
+              and routes incidents to external ticketing systems in real time, replacing manual triage
+              with automated zero-touch routing.
+            </p>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-meta">
+              <span>Production platform</span>
+              <span>AWS IoT + Kafka/MSK</span>
+            </div>
+            <h3>IoT telemetry and event processing pipelines</h3>
+            <p>
+              Architected AWS IoT and Kafka/MSK pipelines processing 1M+ daily telemetry events across
+              production systems, reducing operational visibility latency from minutes to sub-second
+              response times.
+            </p>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-meta">
+              <span>Production systems</span>
+              <span>Terraform + S3</span>
+            </div>
+            <h3>Secure file ingestion infrastructure</h3>
+            <p>
+              Designed Terraform-provisioned AWS Transfer Family SFTP infrastructure to automate secure
+              file ingestion from on-premise systems into S3, eliminating manual transfer workflows.
+            </p>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-meta">
+              <span>AI + ML</span>
+              <span>Amazon Bedrock</span>
+            </div>
+            <h3>AI-powered operational workflows</h3>
+            <p>
+              Designed tooling and workflow automation using Amazon Bedrock, RAG pipeline design,
+              prompt engineering, and context-aware querying over structured operational data.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-kicker reveal">Experience</div>
+        <div class="timeline-layout">
+          <div class="timeline-intro reveal">
+            <h2 id="experience-title">Built in production, grounded in fundamentals.</h2>
+            <p>
+              I started with computer science fundamentals, then moved into production engineering
+              across cloud platforms, telemetry, dashboards, integrations, AI workflows, and deployment automation.
+            </p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Sep 2021 - Present</div>
+              <div class="timeline-card">
+                <h3>Software Engineer III</h3>
+                <p class="timeline-company">Glidewell Dental</p>
+                <ul>
+                  <li>Own end-to-end delivery of 10+ concurrent projects across manufacturing, customer management, customer experience, and dental production.</li>
+                  <li>Architect AWS IoT and Kafka/MSK pipelines processing 1M+ daily telemetry events across production systems.</li>
+                  <li>Provide technical direction across backend architecture, infrastructure, dashboards, and reusable AWS/Terraform patterns.</li>
+                  <li>Automate Terraform and Jenkins/CloudBees CI/CD workflows while integrating REST APIs and IoT services.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Jul 2021 - Sep 2021</div>
+              <div class="timeline-card">
+                <h3>Full Stack Web Developer</h3>
+                <p class="timeline-company">Signage Ideas</p>
+                <ul>
+                  <li>Developed and maintained client-facing web applications with responsive, production-ready UI components.</li>
+                  <li>Collaborated directly with stakeholders to scope requirements, iterate on proposals, and deliver features on schedule.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2017 - 2021</div>
+              <div class="timeline-card education-card">
+                <img src="/img/SAS.png" alt="Rutgers School of Arts and Sciences" width="840" height="277" loading="lazy" />
+                <h3>Rutgers University - New Brunswick</h3>
+                <p class="timeline-company">Bachelor of Science in Computer Science</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell skills-section" aria-labelledby="skills-title">
+        <div class="section-kicker reveal">Toolbox</div>
+        <div class="section-heading reveal">
+          <h2 id="skills-title">A stack broad enough for product delivery and deep enough for platform work.</h2>
+        </div>
+        <div class="skill-columns">
+          <article class="skill-column reveal">
+            <h3>Languages</h3>
+            <p>Python, JavaScript, Node.js, Java, C, C#, C++</p>
+          </article>
+          <article class="skill-column reveal">
+            <h3>Frontend</h3>
+            <p>React, Angular, HTML, CSS, responsive UI, dashboards, accessible interfaces</p>
+          </article>
+          <article class="skill-column reveal">
+            <h3>AWS and data</h3>
+            <p>Lambda, IoT Core, Greengrass, SiteWise, IoT Events, IoT Analytics, Kinesis, Kafka/MSK, DynamoDB, S3, SQS, SNS, SES, RDS, EC2, VPC, Cognito, IAM, API Gateway, Amplify, Route 53</p>
+          </article>
+          <article class="skill-column reveal">
+            <h3>Delivery</h3>
+            <p>Terraform, Kubernetes, Jenkins/CloudBees, GitLab CI/CD, Git, GitHub, Bitbucket, Azure, GCP</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-panel reveal">
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">Let's build something durable, observable, and genuinely useful.</h2>
+          <p>
+            I am open to Software Engineer III roles where full-stack product thinking, cloud architecture,
+            infrastructure discipline, event-driven systems, and AI-assisted workflow automation all matter.
+          </p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:devnandol@gmail.com">Email Dev</a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/devv3899/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="button button-secondary" href="https://github.com/devv3899" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+          <address>
+            <a href="mailto:devnandol@gmail.com">devnandol@gmail.com</a>
+            <span>Irvine, CA</span>
+            <a href="tel:+15512341189">(551) 234-1189</a>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a href="#hero">Back to top</a>
+    </footer>
+    <script src="/js/main.js" defer></script>
   </body>
 </html>
