@@ -2,69 +2,50 @@
 
 ## Positioning
 
-Dev Patel is presented as a Full-Stack Software Engineer III with 4+ years of experience building cloud-native, event-driven platforms across manufacturing, operations, and customer-facing systems. The strongest portfolio themes are:
+Dev Patel is presented as a **Software Engineer III · Cloud Platform & Event-Driven Systems** with 4+ years building cloud-native, event-driven platforms for high-volume dental manufacturing. The portfolio leads with platform ownership and measurable outcomes rather than a generic full-stack label. Strongest themes:
 
-- AWS serverless architecture.
-- IoT telemetry pipelines.
-- Kafka/MSK event processing.
-- DynamoDB data modeling.
-- Terraform infrastructure.
-- Real-time analytics dashboards.
-- Amazon Bedrock and LLM workflow automation.
+- AWS serverless architecture and reusable Terraform/Lambda delivery patterns.
+- Real-time IoT telemetry and event-driven pipelines (IoT Core, Kafka/MSK, WebSockets).
+- Manufacturing analytics dashboards and fleet monitoring.
+- Amazon Bedrock + AI agent orchestration in production workflows.
+- Centralized authentication (Cognito + Azure AD / MSAL).
 
 ## Resume-Aligned Facts
 
 - Name: Dev Patel.
+- Headline: Software Engineer III · Cloud Platform & Event-Driven Systems.
 - Location: Irvine, California.
-- Email: `devnandol@gmail.com`.
-- Phone: `(551) 234-1189`.
-- LinkedIn: `https://www.linkedin.com/in/devv3899/`.
-- GitHub: `https://github.com/devv3899`.
+- Email: `devnandol@gmail.com`. Phone: `(551) 234-1189`.
+- LinkedIn: `https://www.linkedin.com/in/devv3899/`. GitHub: `https://github.com/devv3899`.
 - Current role: Software Engineer III at Glidewell Dental, September 2021 to present.
-- Previous role: Full Stack Web Developer at Signage Ideas, July 2021 to September 2021.
-- Education: Bachelor of Science in Computer Science, Rutgers University - New Brunswick, September 2017 to May 2021.
-- Resume summary: 4+ years of experience building cloud-native, event-driven platforms across manufacturing, operations, and customer-facing systems.
-- Resume impact: Owns end-to-end delivery of 10+ concurrent projects.
-- Resume impact: Architected AWS IoT and Kafka/MSK pipelines processing 1M+ daily telemetry events and reducing operational visibility latency from minutes to sub-second response times.
+- Education: B.S. in Computer Science, Rutgers University – New Brunswick, 2017–2021.
+- The Signage Ideas role has been removed from the resume and the site.
 
-## Experience Story
+## Headline Metrics (keep consistent across site + resume)
 
-The Glidewell Dental role should emphasize:
+- 1M+ daily telemetry events; operational visibility latency cut from minutes to sub-second.
+- Standardized Terraform + Lambda pattern is the default across 40+ backend services; new-service setup cut from days to hours.
+- Fleet analytics dashboard monitoring 3,000+ machines; idle-detection alerting eliminated hours of manual status checks daily.
+- AWS Bedrock + AI agent orchestration cut manual analyst and triage time.
+- Two production facilities (Irvine Bruxzir Factory, Memphis BioFab) on a shared analytics codebase.
 
-- End-to-end delivery of 10+ concurrent projects across manufacturing, customer management, customer experience, and dental production.
-- Discovery with product, operations, and engineering leaders to consolidate fragmented tools and manual workflows into unified platforms.
-- Technical direction across backend architecture, infrastructure, dashboards, and reusable AWS/Terraform patterns.
-- AWS IoT and Kafka/MSK pipelines processing 1M+ daily telemetry events.
-- Event-driven Kafka consumer Lambdas routing multi-topic event streams to downstream services with domain-specific enrichment, transformation, and DynamoDB persistence.
-- Terraform-provisioned AWS Transfer Family SFTP infrastructure for secure file ingestion from on-premise systems into S3.
-- Proactive anomaly detection microservices monitoring live production processes and surfacing insights through real-time dashboards.
-- Terraform and Jenkins/CloudBees CI/CD automation with REST API and IoT service integrations.
+## Experience Story (Glidewell Dental)
 
-The Signage Ideas role should emphasize:
+Emphasize, impact-first: the telemetry pipeline + latency win; the standardized infrastructure pattern adopted across 40+ services; Bedrock/AI workflows; the 3,000+ machine fleet dashboard; the centralized auth platform; and partnering with product/operations/engineering leaders to consolidate manual workflows into unified platforms.
 
-- Client-facing web applications with responsive, production-ready UI components.
-- Direct stakeholder collaboration to scope requirements, iterate on proposals, and deliver features on schedule.
+## Selected Systems (replaces old generic "Projects")
 
-## Projects
-
-Current portfolio project groups:
-
-- Serverless Enterprise Data Sync Pipeline: Python, AWS Lambda, DynamoDB, and Terraform pipeline that ingests, normalizes, and persists enterprise data for downstream reporting, dashboards, and operational workflows.
-- Event-Driven Automated Incident Routing: Python, AWS API Gateway, Lambda, and REST API service that monitors production telemetry, classifies failures, and routes incidents to external ticketing systems in real time.
-- IoT telemetry and event processing pipelines: AWS IoT and Kafka/MSK systems processing 1M+ daily telemetry events.
-- Secure file ingestion infrastructure: Terraform-provisioned AWS Transfer Family SFTP into S3.
-- AI-powered operational workflows: Amazon Bedrock, RAG pipeline design, prompt engineering, LLM integration into production data workflows, and context-aware querying over structured operational data.
+1. **Scalable Manufacturing Execution System (MES)** — 19 serverless microservices, HTTP/WebSocket APIs, IoT-driven Resource Manager, embedded Bedrock + agent AI layer. Python, AWS, Terraform.
+2. **Unified Data Exchange Platform** — central data-exchange hub over WebSockets + IoT Core; topic routing, webhook forwarding, Timestream/InfluxDB time-series path.
+3. **Fleet Analytics Dashboard** — React/MUI + Azure AD; 3,000+ machines, idle detection, Entity Hub 360; high-throughput Python reader Lambda + automated reporting.
+4. **Real-time telemetry pipelines** — AWS IoT + Kafka/MSK, 1M+ daily events, minutes→sub-second.
+5. **Centralized authentication platform** — dual Cognito + Azure AD (MSAL) JWT authorizers on API Gateway.
+6. **Secure file ingestion infrastructure** — Terraform-provisioned AWS Transfer Family SFTP into S3.
 
 ## Tone
 
-Use precise Software Engineer III engineering language. Avoid inflated claims, generic buzzwords, or unverifiable metrics. Keep metrics and technologies aligned to the resume. When production details are confidential, frame the project by problem type, technology, and capability rather than naming internal systems.
+Precise senior engineering language. No inflated claims or unverifiable metrics. Where production details are confidential, frame by problem type, architecture, and capability rather than naming internal systems.
 
 ## Calls To Action
 
-Primary CTA: email Dev at `devnandol@gmail.com`.
-
-Secondary CTAs:
-
-- View resume PDF.
-- Visit LinkedIn.
-- Visit GitHub.
+Primary: email `devnandol@gmail.com`. Secondary: view resume PDF (`/Dev_Patel_Resume.pdf`), LinkedIn, GitHub.

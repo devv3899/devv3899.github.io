@@ -20,7 +20,7 @@ This portfolio is a static GitHub Pages site. It does not require a build step, 
 - `#hero`: First impression, primary role, CTA links, and high-level proof points.
 - `#work`: Software Engineer III value proposition and impact pillars.
 - `#systems`: Capability map from edge/IoT through event services, cloud services, and dashboards.
-- `#projects`: Production-oriented project stories plus selected CS systems foundations.
+- `#projects`: "Selected Systems" — flagship production platforms (MES, Unified Data Exchange Platform, Fleet Analytics Dashboard) plus telemetry, authentication, and ingestion infrastructure.
 - `#experience`: Resume-aligned work history and education.
 - `skills-section`: Language, frontend, AWS/data, and delivery toolbox.
 - `#contact`: Recruiter-friendly contact CTA and contact details.
@@ -53,5 +53,10 @@ The project is GitHub Pages ready because all asset paths are absolute from the 
 - `/img/profile.png`
 - `/img/SAS.png`
 - `/Dev_Patel_Resume.pdf`
+- `/favicon.ico` (root) plus `/img/favicon.svg`, `/img/favicon-32.png`, `/img/favicon-16.png`, `/img/apple-touch-icon.png`
 
 If the repository is served from a subpath instead of a user/org root page, convert these to relative paths.
+
+## Favicons
+
+The favicon set is a "DP" monogram in the site palette (ink→teal gradient, paper letters, amber accent). `favicon.svg` is the crisp primary; PNG (32/16) and a multi-size `favicon.ico` are fallbacks; `apple-touch-icon.png` (180×180) covers iOS. The previous `favicon.ico` was a mislabeled JPEG and has been replaced.
