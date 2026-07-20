@@ -949,3 +949,23 @@ address a {
     min-width: 8.5rem;
   }
 }
+
+/* ---- Focus visibility (keyboard a11y) ---- */
+a:focus-visible,
+.button:focus-visible,
+.nav-toggle:focus-visible,
+.site-nav a:focus-visible {
+  outline: 3px solid var(--amber);
+  outline-offset: 3px;
+}
+
+/* ---- Active-section navigation highlight ---- */
+.site-nav a.is-active {
+  color: var(--coral);
+}
+
+.site-header.is-scrolled .site-nav a.is-active,
+.site-header.nav-active .site-nav a.is-active {
+  color: var(--teal-dark);
+  background: rgba(15, 118, 110, 0.1);
+}

@@ -54,3 +54,25 @@ if ("IntersectionObserver" in window) {
 } else {
   revealItems.forEach((item) => item.classList.add("is-visible"));
 }
+
+// Active-section navigation highlighting
+const navLinks = Array.from(document.querySelectorAll('.site-nav a[href^="#"]'));
+if ("IntersectionObserver" in window && navLinks.length) {
+  const linkFor = new Map(navLinks.map((a) => [a.getAttribute("href").slice(1), a]));
+  const watched = navLinks
+    .map((a) => document.getElementById(a.getAttribute("href").slice(1)))
+    .filter(Boolean);
+
+  const navObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        navLinks.forEach((link) => link.classList.remove("is-active"));
+        linkFor.get(entry.target.id)?.classList.add("is-active");
+      });
+    },
+    { rootMargin: "-45% 0px -50% 0px", threshold: 0 }
+  );
+
+  watched.forEach((section) => navObserver.observe(section));
+}

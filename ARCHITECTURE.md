@@ -6,21 +6,22 @@ This portfolio is a static GitHub Pages site. It does not require a build step, 
 
 ## Runtime Flow
 
-1. `index.html` loads metadata, fonts, `/css/styles.css`, and deferred `/js/main.js`.
+1. `index.html` loads metadata (including canonical, Open Graph, Twitter, and JSON-LD `Person` structured data), fonts, `/css/styles.css`, and deferred `/js/main.js`.
 2. The browser renders a semantic single-page portfolio with anchor navigation.
 3. `js/main.js` enhances the static page with:
    - Sticky header scroll styling.
    - Mobile navigation open and close behavior.
    - Escape-key menu dismissal.
    - IntersectionObserver reveal animations.
+   - Active-section navigation highlighting (IntersectionObserver).
 4. All content remains readable if JavaScript is unavailable.
 
 ## Page Sections
 
 - `#hero`: First impression, primary role, CTA links, and high-level proof points.
-- `#work`: Software Engineer III value proposition and impact pillars.
+- `#work`: Senior-engineer value proposition and impact pillars.
 - `#systems`: Capability map from edge/IoT through event services, cloud services, and dashboards.
-- `#projects`: "Selected Systems" — flagship production platforms (MES, Unified Data Exchange Platform, Fleet Analytics Dashboard) plus telemetry, authentication, and ingestion infrastructure.
+- `#projects`: "Selected Systems" — flagship production platforms (Scalable MES, IoT Device Management & OTA Platform, Unified Data Exchange Platform, Fleet Analytics Dashboard) plus telemetry, authentication, ingestion infrastructure, and a 3D Mesh QC Viewer. Two full-width feature cards lead; the remaining six are half-width.
 - `#experience`: Resume-aligned work history and education.
 - `skills-section`: Language, frontend, AWS/data, and delivery toolbox.
 - `#contact`: Recruiter-friendly contact CTA and contact details.
@@ -41,7 +42,8 @@ The visual system lives in `css/styles.css`:
 - A skip link is available for keyboard users.
 - Mobile navigation uses `aria-expanded` and `aria-controls`.
 - Decorative hero image content is hidden from assistive tech while meaningful images include alt text.
-- Interactive focus states are visible.
+- Interactive focus states are visible via a dedicated `:focus-visible` outline on links, buttons, and nav.
+- The primary nav highlights the active section as the reader scrolls.
 - Text remains present in HTML and does not depend on animation to become available.
 
 ## Deployment
