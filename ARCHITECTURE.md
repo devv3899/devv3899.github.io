@@ -19,11 +19,11 @@ This portfolio is a static GitHub Pages site. It does not require a build step, 
 ## Page Sections
 
 - `#hero`: First impression, first-engineer-in positioning, CTA links, and high-level proof points.
-- `#work`: Senior-engineer value proposition and four impact pillars (2×2 grid): first-engineer ownership, telemetry scale, infrastructure leverage, AI/analytics.
+- `#work`: Senior-engineer value proposition and four impact pillars (2×2 grid): first-engineer ownership, real-time event scale, the standards layer (Terraform + the React design system), AI/analytics.
 - `#systems`: Capability map from edge/IoT through event services, cloud services, and dashboards.
-- `#projects`: "Selected Systems" — MES and the AI Agent Platform lead as full-width feature cards, followed by six half-width cards (IoT Device Management & OTA, Unified Real-Time Data Exchange, Fleet Analytics, telemetry pipelines, centralized authentication, 3D Mesh QC Viewer).
-- `#experience`: Resume-aligned work history and education.
-- `skills-section`: Six-category toolbox mirroring the resume (3-column grid).
+- `#projects`: "Selected Systems" — ordered sole-ownership first. The IoT Device Management & OTA Platform and the Unified Real-Time Data Exchange Platform lead as full-width feature cards (sole-engineer work), followed by eight half-width cards (MES & Workflow Engine, AI Agent Platform, Shared Design System & App Platform, Fleet Analytics, Machine Telemetry & Fault Visibility, Authentication & authorization, ChatOps Remediation, 3D Mesh QC Viewer). See CONTENT.md for the ownership-labelling rule.
+- `#experience`: Resume-aligned work history and education. The Glidewell entry carries a `.timeline-progression` line (title history), a `.timeline-summary` lede, and three `.timeline-group` subheads mirroring the resume's groupings (Applications & frontend platform / Platform & infrastructure / AI & data).
+- `skills-section`: Six-category toolbox mirroring the resume (3-column grid, 2 rows).
 - `#contact`: Recruiter-friendly contact CTA and contact details.
 - Footer: Minimal back-to-top navigation only.
 

@@ -1,10 +1,10 @@
 # Dev Patel Portfolio
 
-Premium static portfolio for Dev Patel — a Senior Software Engineer focused on cloud-platform, event-driven, and AI systems: AWS serverless architecture, real-time IoT telemetry, Kafka/MSK event processing, IoT device management + OTA, production dashboards, infrastructure automation, and a production Amazon Bedrock AI agent platform.
+Premium static portfolio for Dev Patel — a senior full-stack engineer focused on cloud platforms, event-driven systems, and production AI: AWS serverless architecture, real-time IoT telemetry, Kafka/MSK event processing, IoT device management + OTA, a shared React 19 design system, production dashboards, infrastructure automation, and a production Amazon Bedrock agent platform.
 
 ## Site Goals
 
-- Present Dev accurately as a Senior Software Engineer (Cloud Platform, Event-Driven & AI Systems) with 5+ years of production cloud, manufacturing, operations, and customer-facing systems experience.
+- Present Dev accurately as a Senior Full-Stack Engineer (Cloud Platform, Event-Driven Systems & AI Agent Platforms) with 5 years of production cloud, manufacturing, operations, and customer-facing systems experience.
 - Make the first viewport recruiter-friendly with clear role, focus, proof points, and calls to action.
 - Tell a stronger technical story than a basic resume page while staying aligned to the resume.
 - Keep the implementation fast, accessible, responsive, and easy to maintain on GitHub Pages.

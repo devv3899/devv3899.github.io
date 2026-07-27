@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-07-27 — Resync to the latest resume (v1.4.0)
+
+- Repositioned from "Senior Software Engineer" to the resume's **Senior Full-Stack Engineer · Cloud Platform · Event-Driven Systems · AI Agent Platforms** across the title, meta, social cards, JSON-LD `jobTitle`, brand, hero eyebrow, and contact copy.
+- Updated the platform-leverage metrics from "40+ services · 13+ applications" to **80+ backend services · 15+ React applications**, and added the 100+ DynamoDB tables and 15+ real-time dashboards figures.
+- **Corrected an overstated claim:** operational visibility is "minutes to **seconds**," not "sub-second." Fixed in the hero proof points, impact pillar, telemetry card, and experience bullets.
+- Added the frontend platform story the old site omitted entirely: a new **Shared Design System & App Platform** card (React 19 / MUI / Vite, token-driven light/dark theming, layout shell, component kit) and a rewritten impact pillar covering both the Terraform and the React standards.
+- Added a new **ChatOps Remediation** card (Microsoft Teams Adaptive Cards → Lambda callbacks) — also new to the resume.
+- **Reordered Selected Systems to sole-ownership first.** The IoT Device Management & OTA Platform and the Unified Real-Time Data Exchange Platform (UDEP) are now the two full-width feature cards; the MES & Workflow Engine and the AI Agent Platform moved to standard half-width cards. Card labels now state the ownership honestly — "Flagship platform · sole engineer" vs. "Platform · architect & lead" — instead of presenting every system as equally solo. Gave UDEP a three-bullet list so it fills the feature card's 3-column bullet grid.
+- Renamed "Real-time telemetry pipelines" to **Machine Telemetry & Fault Visibility** and refocused it on the device side (MQTT topic design, Kafka consumers, the alarm/utilization state engine), moving the 1M+ events and 100+ DynamoDB tables figures onto UDEP so the two ingestion cards no longer repeat each other.
+- Reframed the MES card as **MES & Workflow Engine**, matching the resume's configurable-workflow-engine framing (state transitions, conditional branching, scripted actions, inventory side-effects).
+- Enriched existing cards from the resume: human-in-the-loop gating and NL-to-SQL over Athena on the AI platform; the dynamic RBAC engine (log-then-enforce, zero mismatches) on the renamed **Authentication & authorization platform**; utilization/idle detection over a state engine and the move onto precomputed rollups with async backfill on Fleet Analytics.
+- Rebuilt the experience entry: added the **title progression** (SE III 2025–Present · SE II 2022–2025 · SE I 2021–2022), a role lede, and three subheaded groups (Applications & frontend platform / Platform & infrastructure / AI & data) carrying all 11 resume bullets verbatim in intent.
+- Rebuilt the skills toolbox to the resume's current six categories, replacing "Enterprise integrations" with **Data & observability** (PostgreSQL, Athena, InfluxDB, Grafana, CloudWatch, Kafka consumers).
+- Trimmed everything the resume dropped: Java, Angular, Kubernetes, Azure, GCP, Greengrass, Kinesis, Timestream-as-a-skill, Amplify, VPC, and D365 / Dataverse. Zendesk and Pega remain only where the resume still names them.
+- Switched to the resume's **Azure AD (Entra) / Entra ID (MSAL)** wording.
+- Kept the 3D Mesh QC Viewer despite its absence from the one-page resume — now recorded in CONTENT.md as a documented beyond-resume exception rather than an accidental drift.
+- CSS: added `.timeline-progression`, `.timeline-summary`, and `.timeline-group` styles; pinned `.education-card .timeline-company` spacing so the education card is visually unchanged.
+- Verified rendering at 1280px and 375px: no horizontal overflow, project grid still pairs evenly (2 feature + 8 half-width), skills still a clean 3×2.
+- Updated CONTENT.md, ARCHITECTURE.md, and README.md.
+
 ## 2026-07-26 — Corrected origin-story wording (v1.3.1)
 
 - Replaced every "founding engineer" reference with "first software engineer on the Automation team." Dev did not found the team — it already existed as mechanical and controls engineers, and he was the first software hire into it. Added a documentation guardrail so this doesn't drift back.
