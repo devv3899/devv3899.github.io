@@ -35,7 +35,9 @@ Dev Patel is presented as a **Senior Software Engineer · Cloud Platform, Event-
 - The AI work is **agentic tool-use + NL-to-SQL** (planner-routed, multi-model Claude + Nova agent over operational data). There is **no vector RAG** — do **not** use the term "RAG" anywhere.
 - Keep the machine count at the real, defensible **3,500+** (never inflate).
 - Describe the `firmware` work as **IoT device management + OTA delivery** — not "wrote embedded firmware."
-- **The site is a strict subset of the resume.** Do not introduce skills, tools, or projects that are not on `Dev_Patel_Resume.pdf`. Previously-removed extras: C/C++/C#, "Vanilla-JS SPAs", SiteWise / IoT Events / IoT Analytics / RDS / EC2 / Route 53, the "Secure file ingestion infrastructure" project, and the legacy-JS → React 19 migration bullet.
+- Say **multi-account promotion** (not "multi-environment") — that is the resume's wording.
+- Two site details deliberately go beyond the resume because they are true and add depth: the MES's **19 serverless microservices** and its **IoT-driven Resource Manager**. Everything else must trace to the resume.
+- **The site is otherwise a strict subset of the resume.** Do not introduce skills, tools, or projects that are not on `Dev_Patel_Resume.pdf`. Previously-removed extras: C/C++/C#, "Vanilla-JS SPAs", SiteWise / IoT Events / IoT Analytics / RDS / EC2 / Route 53, the "Secure file ingestion infrastructure" project, and the legacy-JS → React 19 migration bullet.
 
 ## Selected Systems (replaces old generic "Projects")
 
