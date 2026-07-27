@@ -1,8 +1,13 @@
 # Changelog
 
-## 2026-07-26 — Resume sync: founding-engineer story + strict resume parity (v1.3.0)
+## 2026-07-26 — Corrected origin-story wording (v1.3.1)
 
-- Led with the founding-engineer story from the resume: hero now opens with "founding software engineer on a dental-manufacturing automation team," and a new "Founding engineer, full-stack owner" impact card covers building the platform solo and reviewing other engineers' work into production.
+- Replaced every "founding engineer" reference with "first software engineer on the Automation team." Dev did not found the team — it already existed as mechanical and controls engineers, and he was the first software hire into it. Added a documentation guardrail so this doesn't drift back.
+- Swapped in the updated resume PDF, which carries the same corrected wording.
+
+## 2026-07-26 — Resume sync: origin story + strict resume parity (v1.3.0)
+
+- Led with the origin story from the resume: hero now opens with "first software engineer on a dental-manufacturing automation team," and a new "First engineer in, full-stack owner" impact card covers building the AWS telemetry backend and reviewing other engineers' work into production.
 - Promoted the AI Agent Platform out of the MES card into its own flagship card — 10-tool registry, live DynamoDB access, sandboxed code interpreter, NL-to-SQL, ticket-narrative structuring, and on-demand charts instead of fixed dashboards.
 - Rewrote the MES card around what it actually does: digitizing flow-based production so every step emits structured data, feeding real-time KPIs and AI-generated charts for plant leadership.
 - Rewrote the Glidewell experience bullets to match the resume line for line, including the ownership/mentorship and serverless-cost bullets that were missing.

@@ -2,9 +2,9 @@
 
 ## Positioning
 
-Dev Patel is presented as a **Senior Software Engineer · Cloud Platform, Event-Driven & AI Systems** with 5 years building cloud-native, event-driven platforms for high-volume dental manufacturing. The portfolio leads with **founding-engineer ownership** and measurable outcomes rather than a generic full-stack label. Strongest themes:
+Dev Patel is presented as a **Senior Software Engineer · Cloud Platform, Event-Driven & AI Systems** with 5 years building cloud-native, event-driven platforms for high-volume dental manufacturing. The portfolio leads with **first-engineer-in ownership** and measurable outcomes rather than a generic full-stack label. Strongest themes:
 
-- Founding software engineer on the Automation team — built the entire platform solo, now owns the AWS infrastructure other engineers build on and reviews their changes into production.
+- First software engineer on the Automation team — joined mechanical and controls engineers piloting IoT on the shop floor, independently built the AWS telemetry backend and platform around it, and now owns the infrastructure other engineers build on.
 - AWS serverless architecture and reusable Terraform/Lambda delivery patterns.
 - Real-time IoT telemetry and event-driven pipelines (IoT Core, Kafka/MSK, WebSockets).
 - IoT device management + OTA (provisioning, firmware/config delivery, device-shadow reconciliation).
@@ -35,6 +35,7 @@ Dev Patel is presented as a **Senior Software Engineer · Cloud Platform, Event-
 - The AI work is **agentic tool-use + NL-to-SQL** (planner-routed, multi-model Claude + Nova agent over operational data). There is **no vector RAG** — do **not** use the term "RAG" anywhere.
 - Keep the machine count at the real, defensible **3,500+** (never inflate).
 - Describe the `firmware` work as **IoT device management + OTA delivery** — not "wrote embedded firmware."
+- **Never write "founding engineer."** Dev did not found the Automation team — it already existed as mechanical and controls engineers. He was the **first software engineer hired into it**. Use "first software engineer on the Automation team."
 - Say **multi-account promotion** (not "multi-environment") — that is the resume's wording.
 - Two site details deliberately go beyond the resume because they are true and add depth: the MES's **19 serverless microservices** and its **IoT-driven Resource Manager**. Everything else must trace to the resume.
 - **The site is otherwise a strict subset of the resume.** Do not introduce skills, tools, or projects that are not on `Dev_Patel_Resume.pdf`. Previously-removed extras: C/C++/C#, "Vanilla-JS SPAs", SiteWise / IoT Events / IoT Analytics / RDS / EC2 / Route 53, the "Secure file ingestion infrastructure" project, and the legacy-JS → React 19 migration bullet.

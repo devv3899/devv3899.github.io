@@ -18,8 +18,8 @@ This portfolio is a static GitHub Pages site. It does not require a build step, 
 
 ## Page Sections
 
-- `#hero`: First impression, founding-engineer positioning, CTA links, and high-level proof points.
-- `#work`: Senior-engineer value proposition and four impact pillars (2×2 grid): founding ownership, telemetry scale, infrastructure leverage, AI/analytics.
+- `#hero`: First impression, first-engineer-in positioning, CTA links, and high-level proof points.
+- `#work`: Senior-engineer value proposition and four impact pillars (2×2 grid): first-engineer ownership, telemetry scale, infrastructure leverage, AI/analytics.
 - `#systems`: Capability map from edge/IoT through event services, cloud services, and dashboards.
 - `#projects`: "Selected Systems" — MES and the AI Agent Platform lead as full-width feature cards, followed by six half-width cards (IoT Device Management & OTA, Unified Real-Time Data Exchange, Fleet Analytics, telemetry pipelines, centralized authentication, 3D Mesh QC Viewer).
 - `#experience`: Resume-aligned work history and education.
