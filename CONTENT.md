@@ -50,13 +50,28 @@ Dev Patel is presented as a **Senior Full-Stack Engineer · Cloud Platform, Even
 
 **Ordering principle: sole-ownership first.** The two feature cards are the platforms Dev designed, built, and owns as the **sole engineer**. Everything after is work where he set the architecture and led delivery with the team building alongside him. Card `project-meta` carries this honestly — `Flagship platform · sole engineer` vs. `Platform · architect & lead` — so the ordering is legible rather than implied. Do not relabel a team-delivered system as sole-engineer work.
 
+**One claim, one card.** Each metric and each named mechanism lives on exactly **one** card; repeating it across cards makes the portfolio read like padding rather than a set of distinct systems. Current assignments to preserve:
+
+| Claim / mechanism | Owning card |
+| --- | --- |
+| 1M+ events a day · 100+ DynamoDB tables · minutes→seconds | UDEP (2) |
+| MQTT topic taxonomy · heartbeats · event normalization | Machine Telemetry (7) |
+| State engine · utilization · idle detection · 3,500+ devices · five sites / nine lines | Fleet Analytics (6) |
+| X.509 provisioning · OTA · shadow reconciliation | IoT Device Mgmt & OTA (1) |
+| Workflow engine · 19 microservices · Resource Manager | MES (3) |
+| 10-tool registry · human-in-the-loop gating · NL-to-SQL | AI Agent Platform (4) |
+| Component kit · light/dark tokens · 15+ dashboards | Design System (5) |
+| Lambda authorizer · dynamic RBAC · scoped API keys | Auth & authorization (8) |
+
+Shared *technology* names (Terraform, Kafka, MQTT, WebSocket) may recur — these systems really do share a stack. Shared *claims* may not. The impact pillars in `#work` and the résumé bullets in `#experience` are summary layers and may restate card claims; peer cards may not restate each other.
+
 1. **IoT Device Management & OTA Platform** — the cloud control plane for a CNC milling fleet: automated X.509 provisioning, least-privilege per-device policies, over-the-air firmware/config delivery, self-healing configuration reconciliation (hash-verified config, conflict detection, auto-recovery). AWS IoT, Python, Terraform. *(feature card · sole engineer)*
 2. **Unified Real-Time Data Exchange Platform (UDEP)** — the ingestion backbone: topic-routed pub/sub over IoT Core + Kafka/MSK fanning out to webhooks, live WebSocket clients, and a Timestream/InfluxDB time-series store; no-code message transformer, HIPAA-oriented PII hashing; 1M+ events a day into 100+ DynamoDB tables, minutes→seconds. *(feature card · sole engineer)*
 3. **Manufacturing Execution System & Workflow Engine** — 19 serverless microservices; digitized a paper-based production process via a configurable workflow engine (ordered steps, state transitions, conditional branching, scripted actions, inventory side-effects) so every step emits structured events, resurfaced as LLM-generated dashboards and real-time KPIs. HTTP/WebSocket APIs, IoT-driven Resource Manager. Python, AWS, Terraform. *(architect & lead)*
 4. **AI Agent Platform** — planner-routed, multi-model (Claude + Amazon Nova) tool-use agent embedded in the MES; 10-tool registry (live DynamoDB access, sandboxed code interpreter, NL-to-SQL over Athena, analytics presets, email/SNS/IoT actions), human-in-the-loop gating on writes, structures free-text ticket narratives into queryable records, builds charts/KPIs on demand. Amazon Bedrock, Node.js, DynamoDB, API Gateway WebSockets. *(architect & lead)*
 5. **Shared Design System & App Platform** — React 19 / MUI / Vite; token-driven light/dark theming, a layout shell, and a reusable component kit (command palette, data grid, dialogs, status chips, empty states); behind 15+ real-time operational dashboards.
 6. **Fleet Analytics Dashboard** — React/MUI + Entra ID; 3,500+ devices, utilization and idle detection over a state engine, per-device 360 view, Zendesk/Pega service-desk integrations, five sites / nine lines; endpoints later moved off full-table scans onto precomputed rollups with async backfill.
-7. **Machine Telemetry & Fault Visibility** — the device-side half of ingestion: MQTT topic design across five sites and nine lines, Kafka consumers, and the state engine turning raw machine chatter into alarms and utilization. Deliberately carries **no volume metrics** — those live on UDEP (item 2) so the two cards don't duplicate each other.
+7. **Machine Telemetry & Fault Visibility** — the device-side edge of ingestion: MQTT topic taxonomy, connectivity/heartbeat monitoring, Kafka consumers, and normalization of vendor-specific machine output into one common event shape, with faults routed as they happen; first-time real-time fault visibility for the facilities.
 8. **Authentication & authorization platform** — single reusable Lambda authorizer validating Cognito + Azure AD (Entra) JWTs plus scoped API keys across HTTP, REST, and WebSocket APIs, with a dynamic RBAC engine rolled out log-then-enforce to zero mismatches.
 9. **ChatOps Remediation** — Microsoft Teams Adaptive Cards firing on threshold breaches and failure-rate spikes, with operator buttons calling back into Lambda to remediate the device from chat.
 10. **3D Mesh QC Viewer** — in-browser STL/PLY/OBJ rendering with reference-vs-test deviation heatmaps and PDF/zip export (Next.js, React, three.js).
