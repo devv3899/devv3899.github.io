@@ -435,7 +435,7 @@ select {
 
 .impact-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1px;
   background: var(--line);
   border: 1px solid var(--line);
@@ -449,7 +449,7 @@ select {
 }
 
 .impact-card {
-  min-height: 320px;
+  min-height: 280px;
   padding: clamp(1.4rem, 3vw, 2rem);
 }
 
@@ -632,7 +632,7 @@ select {
 .project-card ul {
   display: grid;
   gap: 0.6rem;
-  margin: 0;
+  margin: 1.1rem 0 0;
   padding-left: 1.1rem;
   color: var(--ink-soft);
 }
@@ -703,7 +703,7 @@ select {
 
 .skill-columns {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px;
   background: var(--line);
   border: 1px solid var(--line);

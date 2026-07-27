@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-07-26 — Resume sync: founding-engineer story + strict resume parity (v1.3.0)
+
+- Led with the founding-engineer story from the resume: hero now opens with "founding software engineer on a dental-manufacturing automation team," and a new "Founding engineer, full-stack owner" impact card covers building the platform solo and reviewing other engineers' work into production.
+- Promoted the AI Agent Platform out of the MES card into its own flagship card — 10-tool registry, live DynamoDB access, sandboxed code interpreter, NL-to-SQL, ticket-narrative structuring, and on-demand charts instead of fixed dashboards.
+- Rewrote the MES card around what it actually does: digitizing flow-based production so every step emits structured data, feeding real-time KPIs and AI-generated charts for plant leadership.
+- Rewrote the Glidewell experience bullets to match the resume line for line, including the ownership/mentorship and serverless-cost bullets that were missing.
+- Trimmed everything the resume does not claim: C/C++/C#, "Vanilla-JS SPAs," SiteWise / IoT Events / RDS / EC2 / Route 53, the Secure File Ingestion project, and the legacy-JS → React 19 migration bullet.
+- Rebuilt the skills toolbox into the resume's six categories, adding a new Enterprise Integrations group (Zendesk, Pega, D365 / Dataverse).
+- Updated the platform-leverage metric to "40+ services · 13+ applications" and refreshed the page title/meta/social descriptions to match.
+- Layout: impact grid is now 2×2, skills are a 3-column grid, and the project grid keeps an even number of half-width cards.
+- Updated CONTENT.md and ARCHITECTURE.md, and added a guardrail that the site must stay a strict subset of the resume.
+
 ## 2026-07-20 — Senior repositioning + best-in-class pass (v1.2.0)
 
 - Repositioned from "Software Engineer III" to "Senior Software Engineer · Cloud Platform · Event-Driven Systems · AI / Agent Platforms" across the title, meta, hero eyebrow, and brand. The Experience section keeps the factual "Software Engineer III" title.

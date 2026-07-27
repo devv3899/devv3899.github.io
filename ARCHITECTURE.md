@@ -18,12 +18,12 @@ This portfolio is a static GitHub Pages site. It does not require a build step, 
 
 ## Page Sections
 
-- `#hero`: First impression, primary role, CTA links, and high-level proof points.
-- `#work`: Senior-engineer value proposition and impact pillars.
+- `#hero`: First impression, founding-engineer positioning, CTA links, and high-level proof points.
+- `#work`: Senior-engineer value proposition and four impact pillars (2×2 grid): founding ownership, telemetry scale, infrastructure leverage, AI/analytics.
 - `#systems`: Capability map from edge/IoT through event services, cloud services, and dashboards.
-- `#projects`: "Selected Systems" — flagship production platforms (Scalable MES, IoT Device Management & OTA Platform, Unified Data Exchange Platform, Fleet Analytics Dashboard) plus telemetry, authentication, ingestion infrastructure, and a 3D Mesh QC Viewer. Two full-width feature cards lead; the remaining six are half-width.
+- `#projects`: "Selected Systems" — MES and the AI Agent Platform lead as full-width feature cards, followed by six half-width cards (IoT Device Management & OTA, Unified Real-Time Data Exchange, Fleet Analytics, telemetry pipelines, centralized authentication, 3D Mesh QC Viewer).
 - `#experience`: Resume-aligned work history and education.
-- `skills-section`: Language, frontend, AWS/data, and delivery toolbox.
+- `skills-section`: Six-category toolbox mirroring the resume (3-column grid).
 - `#contact`: Recruiter-friendly contact CTA and contact details.
 - Footer: Minimal back-to-top navigation only.
 
